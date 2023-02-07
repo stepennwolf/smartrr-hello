@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LastCurrencyConversionRates/> renders with empty data 1`] = `
+<p>
+  Currency conversion rates haven't been provided yet
+</p>
+`;
+
+exports[`<LastCurrencyConversionRates/> renders with supplied data 1`] = `
+<section
+  className="LastCurrencyConversionRates"
+>
+  <h2>
+    Last conversion rates for 
+    USD/BRL
+  </h2>
+  <ul>
+    <li>
+      2/7/2023, 6:15:31 PM
+       - 
+      <strong>
+        5.0123
+      </strong>
+    </li>
+    <li>
+      2/7/2023, 8:15:31 PM
+       - 
+      <strong>
+        7.0453
+      </strong>
+    </li>
+    <li>
+      2/7/2023, 10:15:31 PM
+       - 
+      <strong>
+        4.1432
+      </strong>
+    </li>
+  </ul>
+</section>
+`;
